@@ -23,11 +23,15 @@
     <!-- Google Web Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
 
     <!-- Icons CSS -->
@@ -40,7 +44,12 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="bootstrap/css/bootstrap.min.css"
+    />
 
     <!-- CSS Files For Plugin -->
     <link
@@ -48,7 +57,6 @@
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
       href="css/animate.css"
-      rel="stylesheet"
     />
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
@@ -185,6 +193,7 @@
             >
               <img
                 src="img/slider/s1a.webp"
+                fetchpriority="high"
                 alt=""
                 data-bgposition="center center"
                 data-bgfit="cover"
@@ -292,7 +301,8 @@
               data-saveperformance="off"
             >
               <img
-                src="img/slider/s3a1.jpg"
+                src="img/slider/s3a1.webp"
+                fetchpriority="high"
                 alt=""
                 data-bgposition="center center"
                 data-bgfit="cover"
@@ -423,6 +433,7 @@
                 data-scaleend="100"
                 data-scalestart="110"
                 src="img/slider/s2a.webp"
+                fetchpriority="high"
               />
 
               <!-- LAYER NR. 1 -->
@@ -696,11 +707,11 @@
           <!-- Portfolio Item -->
           <div class="pf-item Graphic">
             <a
-              href="img/portfolio/Design Portfolio@4x.png"
+              href="img/portfolio/Design Portfolio@4x.jpg"
               class="pf-style lightbox-image mfp-image"
             >
               <div class="pf-image">
-                <img src="img/portfolio/Design Portfolio@4x.png" alt="" />
+                <img src="img/portfolio/Design Portfolio@4x.jpg" alt="" />
                 <div class="overlay">
                   <div class="overlay-caption">
                     <div class="overlay-content">
@@ -752,11 +763,11 @@
           <!-- Portfolio Item -->
           <div class="pf-item Mobileapp">
             <a
-              href="img/portfolio/TK.png"
+              href="img/portfolio/TK.jpg"
               class="pf-style lightbox-image mfp-image"
             >
               <div class="pf-image">
-                <img src="img/portfolio/TK.png" alt="" />
+                <img src="img/portfolio/TK.jpg" alt="" />
                 <div class="overlay">
                   <div class="overlay-caption">
                     <div class="overlay-content">
@@ -864,11 +875,11 @@
           <!-- Portfolio Item -->
           <div class="pf-item Mobileapp">
             <a
-              href="img/portfolio/VB.png"
+              href="img/portfolio/VB.jpg"
               class="pf-style lightbox-image mfp-image"
             >
               <div class="pf-image">
-                <img src="img/portfolio/VB.png" alt="" />
+                <img src="img/portfolio/VB.jpg" alt="" />
                 <div class="overlay">
                   <div class="overlay-caption">
                     <div class="overlay-content">
