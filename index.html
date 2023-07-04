@@ -185,7 +185,7 @@
               data-slotamount="default"
               data-easein="Power3.easeInOut"
               data-easeout="Power3.easeInOut"
-              data-masterspeed="1500"
+              data-masterspeed="50"
               data-rotate="0"
               data-saveperformance="off"
               data-title="N.Agency"
@@ -218,11 +218,11 @@
                 data-height="none"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power4.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:500;e:Power2.easeInOut;"
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                data-start="1000"
+                data-start="100"
                 data-splitin="chars"
                 data-splitout="none"
                 data-responsive_offset="on"
@@ -1786,8 +1786,16 @@
     <script src="js/retina.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="inc/owlcarousel/js/owl.carousel.min.js"></script>
-    <script src="inc/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="inc/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script
+      rel="preload"
+      as="script"
+      src="inc/revolution/js/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      rel="preload"
+      as="script"
+      src="inc/revolution/js/jquery.themepunch.revolution.min.js"
+    ></script>
 
     <!-- Contact Form -->
     <script src="js/contact.js"></script>
