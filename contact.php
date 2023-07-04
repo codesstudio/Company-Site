@@ -1,9 +1,7 @@
 <?php
-
-/* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are bellow */
 
-$send_to = "vrushantbhanderi@gmail.com"; //Change to Your Own Email address here.
+$send_to = "code.studio.pvt@gmail.com";
 $send_subject = "Message From Code Studio ";
 
 
