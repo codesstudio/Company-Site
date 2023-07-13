@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
     var data_string = $("#ajax-form").serialize(); // Collect data from form
 
     $.ajax({
-      type: "GET",
+      type: "POST",
       url: $("#ajax-form").attr("action"),
       data: data_string,
       timeout: 6000,
