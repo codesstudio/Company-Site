@@ -1,7 +1,7 @@
 <?php
 /* Editable entries are bellow */
 
-$send_to = "code.studio.pvt@gmail.com";
+$send_to = "ask@thecodestudio.co.in";
 $send_subject = "Message From Code Studio ";
 
 
